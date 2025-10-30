@@ -17,8 +17,6 @@ export function LocationPicker({onPickLocation, pickedLocation}) {
     const navigation = useNavigation();
     const route = useRoute();
 
-    
-
     useEffect(() => {
         async function handleLocation() {
             if(isFocused && route.params) {
